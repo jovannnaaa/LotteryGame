@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\LotteryGame\LotteryGame\bin\Debug\LotteryGame.exe.config
+C:\Users\user\source\repos\LotteryGame\LotteryGame\bin\Debug\LotteryGame.exe
+C:\Users\user\source\repos\LotteryGame\LotteryGame\bin\Debug\LotteryGame.pdb
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.StartForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.Properties.Resources.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.exe
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.pdb
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.GameOverForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.GameForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.ModeSelectionForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.BingoForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.ResultsForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.BonusForm.resources
+C:\Users\user\source\repos\LotteryGame\LotteryGame\obj\Debug\LotteryGame.ResultForm.resources
