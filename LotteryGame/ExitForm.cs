@@ -8,9 +8,9 @@ namespace LotteryGame
 {
     public partial class GameOverForm : Form
     {
-        private readonly List<int> chosenNumbers;   // броеви избрани од играчот
-        private readonly List<int> drawnNumbers;    // броеви извлечени од системот
-        private readonly int matches;               // број на погодоци
+        private readonly List<int> chosenNumbers;   
+        private readonly List<int> drawnNumbers;   
+        private readonly int matches;               
 
         public GameOverForm(List<int> chosenNumbers, List<int> drawnNumbers, int matches)
         {
@@ -26,13 +26,13 @@ namespace LotteryGame
 
         private void ShowResults()
         {
-            // Приказ на избраните броеви
-            tbChosen.Text = "Твои броеви: " + string.Join(", ", chosenNumbers);
+          
+            tbChosen.Text = "ИЗбрани броеви: " + string.Join(", ", chosenNumbers);
 
-            // Приказ на извлечените броеви
+            
             tbDrawn.Text = "Извлечени броеви: " + string.Join(", ", drawnNumbers);
 
-            // Приказ на бројот на погодоци
+          
             tbResult.Text = $"Погодоци: {matches}";
         }
 
@@ -49,7 +49,7 @@ namespace LotteryGame
             Application.Exit();
         }
 
-        // Ако имаш слики/икони
+     
         private void pictureBox1_Click(object sender, EventArgs e) { }
 
         private void GameOverForm_Load(object sender, EventArgs e)

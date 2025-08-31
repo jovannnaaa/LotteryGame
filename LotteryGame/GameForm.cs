@@ -113,11 +113,10 @@ namespace LotteryGame
             };
             Controls.Add(lblStatus);
 
-            // Листа каде ќе ги прикажеме исцртани (визуелно)
-            // visualDrawn се Player објекти кои ќе се цртаат во OnPaint
+           
             visualDrawn.Clear();
 
-            // за да се може да се цртаат, регистрираме Paint event
+      
             this.Paint += GameForm_Paint;
            
             jockerCards.Clear();
@@ -164,7 +163,7 @@ namespace LotteryGame
             btnDraw.Enabled = false;
             lblStatus.Text = "Извлекување...";
 
-            // анимација - step reveal: испаѓаат едно по едно со ефект
+         
             drawnNumbers.Clear();
             visualDrawn.Clear();
             var pool = Enumerable.Range(1, 10).ToList();
@@ -174,13 +173,13 @@ namespace LotteryGame
 
             for (int i = 0; i < 7; i++)
             {
-                await Task.Delay(600); // пауза помеѓу откривањата
+                await Task.Delay(600); 
                 int idx = rng.Next(0, pool.Count);
                 int num = pool[idx];
                 pool.RemoveAt(idx);
                 drawnNumbers.Add(num);
 
-                // додади визуелен Player топка на позиција (исцртување по ред)
+                
                 int size = 60;
                 int startX = 20;
                 int y = 220;
@@ -194,16 +193,15 @@ namespace LotteryGame
 
             }
 
-            // резултати
-            //await Task.Delay(400);
+            
             ShowResults();
             btnDraw.Enabled = true;
         }
 
-        // кратка "шема" на измамен shuffle анимација
+  
         private async Task AnimateShuffle(List<int> pool)
         {
-            // визуелно заменувај бројки на првата позиција неколку пати
+            
             int flashes = 12;
             int size = 60;
             int y = 220;
@@ -235,11 +233,11 @@ namespace LotteryGame
           
           
 
-            // отвори ResultsForm
+   
             var results = new ResultForm(selectedNumbers, drawnNumbers, hits, prize);
             results.FormClosed += (s, e) =>
             {
-                // ако е Advanced и Jackpot -> отвори BingoForm
+                
                 if (mode == GameMode.Advanced)
                 {
                     using (var bingo = new BingoForm())
@@ -265,10 +263,10 @@ namespace LotteryGame
 
                 results.FormClosed += (s, e) =>
                 {
-                    // Ако сме во Advanced 
+                   
                     if (mode == GameMode.Advanced )
                     {
-                        // Отвори BonusForm со 7 извлечени броја како stars
+                        
                         using (var bonus = new BonusForm(drawnNumbers))
                         {
                             bonus.ShowDialog();

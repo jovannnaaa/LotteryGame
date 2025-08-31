@@ -39,7 +39,7 @@ namespace LotteryGame
             using (var font = new Font("Segoe UI", 12, FontStyle.Bold))
             using (var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center })
             {
-                // бројот бели буквички - ако бојата е светла ќе биде црн број
+               
                 g.DrawString(Number.ToString(), font, Brushes.White, Bounds, sf);
             }
         }

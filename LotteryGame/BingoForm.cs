@@ -11,8 +11,6 @@ namespace LotteryGame
         private List<TextBox> inputs = new List<TextBox>();
         private Button btnCheck;
         private Label lblStatus;
-
-        // Примерна целна комбинација (може да се генерира динамично)
         private string[] winningPattern = new string[] { "+", "-", "|", "+", "-", "|", "+" };
 
         public BingoForm()

@@ -18,10 +18,10 @@ namespace LotoGame
 
         public void Draw(Graphics g)
         {
-            // Цртај ја топката како круг
+            
             g.FillEllipse(Color, Bounds);
 
-            // Цртај го бројот на средина
+            
             using (Font font = new Font("Arial", 12, FontStyle.Bold))
             using (StringFormat sf = new StringFormat()
             {
