@@ -1,4 +1,4 @@
-#LotteryGame
+LotteryGame
 
 Јована Мечева(231124)
 
